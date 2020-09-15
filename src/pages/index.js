@@ -1,11 +1,14 @@
 import React from "react"
-import { Link } from "gatsby"
-import Navbar from "../components/Navbar"
+import Layout from "../components/Layout"
+import { ExampleButton } from "../components/Button"
 
 export default () => (
-  <div>
-    <Navbar></Navbar>
-    Hello People!
-    <Link to="/blog/">blog</Link>
-  </div>
+  <Layout>
+    <h1>Hello from Gatsby Index</h1>
+    <h1>Hello from Gatsby Index</h1>
+    <h1>Hello from Gatsby Index</h1>
+    <ExampleButton> Clicke me </ExampleButton>
+  </Layout>
 )
+
+// To use Gatsby to its MAX we must use

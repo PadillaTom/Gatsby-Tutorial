@@ -1,0 +1,10 @@
+.page {
+  background: red;
+}
+.page h1 {
+  color: blue;
+}
+.text {
+  text-transform: uppercase;
+  color: white;
+}
