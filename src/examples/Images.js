@@ -37,7 +37,7 @@ const Images = () => {
     <section className="images">
       <article className="single-image">
         <h3>Basic Image like React</h3>
-        <img src={img} width="100%" />
+        <img src={img} width="100%" alt="name" />
       </article>
       <article className="single-image">
         <h3>Fixed Image with Blur</h3>

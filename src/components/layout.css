@@ -29,3 +29,17 @@ p {
     gap: 1rem;
   }
 }
+
+/*Template*/
+.single-product {
+  width: 90wv;
+  max-width: 1170px;
+  margin: 3rem auto;
+}
+@media screen and (min-width: 768px) {
+  .single-product {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+}
